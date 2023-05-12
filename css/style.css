@@ -1,0 +1,31 @@
+/* Created by: Lily C
+* Created on: 05/08/2023
+* This CSS file defines the style for index.php
+* Unit5-02-PHP-ProductOfNumbers
+*/
+
+body {
+  background-color: purple;
+  padding-left: 20px; padding-right: 20px;
+}
+
+h1 {
+  background-color: rgb(221 161 94);
+  color: hsl(88deg 38% 15%);
+  padding: 40px;
+  text-align: center;
+}
+
+h3 {
+  color: #bc6c25;
+}
+
+p {
+  background-color: #283618;
+  color: #fefae0
+}
+
+iframe {
+  background-color: #283618;
+  color: #fefae0;
+}
