@@ -7,7 +7,7 @@
   $firstNumber = $_POST['first-number']; 
   $secondNumber = $_POST['second-number'];
 
-  // If statement to give an error message if nothing nothing is entered or if numbers are invalid.
+  // If statement to give an error message if nothing is entered or if numbers are invalid.
   if ((!is_numeric($firstNumber) || !is_numeric($secondNumber)) || ($firstNumber == "" || $secondNumber == "")) {
     echo "Please enter valid numbers.";
   }
