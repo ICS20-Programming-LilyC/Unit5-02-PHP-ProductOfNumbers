@@ -32,7 +32,7 @@
     <!--Text-->
     <center>
     <?php echo "<p>Welcome to my prodcut of numbers webpage. On my webpage you can input 2 numbers and I will calculate the product of these numbers using multiplication.</p>"; ?>
-    </center>"
+</center>
 
     <!--Image-->
     <br>
@@ -51,7 +51,6 @@
       <br>
       <label for="second number">Enter another positive integer:</label>
       <input type="number" step="1" id="second-number" name="second-number" placeholder="Your second integer">
-
       <br>
       <br>
 

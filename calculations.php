@@ -4,8 +4,9 @@
   $product = 0;
 
   // Getting numbers from user.
-  $firstNumber = $_POST['first-number'];
-  $secondNumber = $_POST['second-number'];
+  $firstNumber = isset($_POST['first-number']) ? $_POST['first-number'] : "";
+  $secondNumber = isset($_POST['second-number']) ? $_POST['second-number'] : "";
+
 
   // If statement to give an error message if nothing nothing is entered or if numbers are invalid.
   if ((!is_numeric($firstNumber) || !is_numeric($secondNumber)) || ($firstNumber == "" || $secondNumber == "")) {
