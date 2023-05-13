@@ -1,25 +1,26 @@
 <?php
 
-  // Initialize product variable
+  // Initializing product variable.
   $product = 0;
 
-  // Getting the user's two numbers to find the product.
+  // Getting numbers from user.
   $firstNumber = $_POST['first-number'];
   $secondNumber = $_POST['second-number'];
 
-  // If statement to give an error message if nothing is entered or if numbers are invalid.
+  // If statement to give an error message if nothing nothing is entered or if numbers are invalid.
   if ((!is_numeric($firstNumber) || !is_numeric($secondNumber)) || ($firstNumber == "" || $secondNumber == "")) {
     echo "Please enter valid numbers.";
   }
 
-  //Else
+  // Else (for if numbers are entered)
   else {
-    // Using a for loop to do repeated addition to get the product.
+
+    // For loop to execute repeated addition that will result in the product.
     for ($counter = 1; $counter <= abs($secondNumber); $counter++) {
       $product = $product + abs($firstNumber);
     }
 
-    // Add back negative sign if needed.
+    // If statement to make sure that if one of the numbers is negative, the product will be negative.
     if (($firstNumber < 0 && $secondNumber > 0) || ($firstNumber > 0 && $secondNumber < 0)) {
       $product = $product * -1;
     }
