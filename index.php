@@ -19,15 +19,15 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!--MDL theme-->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-light_green.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css" />
 
     <!--Title-->
-    <title>Product of Numbers Webpage with PHP</title>
+    <title>Product of Numbers Webpage</title>
   </head>
   <body>
 
     <!--Header-->
-    <?php echo "<h1>Product of Numbers Webpage with Javascript</h1>"; ?>
+    <?php echo "<h1>Product of Numbers Webpage with PHP</h1>"; ?>
 
     <!--Text-->
     <center>
@@ -44,13 +44,14 @@
     <?php echo"<h3>Please enter your input below:</h3>"; ?>
 
     <!--Form for user input-->
-    <form action="javascript:integersSent()">
+    <form action="./calculations.php"  method="post" target="results"/>
       <label for="first number">Enter a positive integer:</label>
-      <input type="number" step="1" id="first-number" placeholder="Your first integer">
+      <input type="number" step="1" id="first-number" name="first-number" placeholder="Your first integer">
       <br>
       <br>
       <label for="second number">Enter another positive integer:</label>
-      <input type="number" step="1" id="second-number" placeholder="Your second integer">
+      <input type="number" step="1" id="second-number" name="second-number" placeholder="Your second integer">
+
       <br>
       <br>
 

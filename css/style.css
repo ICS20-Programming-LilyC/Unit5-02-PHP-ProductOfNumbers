@@ -10,22 +10,21 @@ body {
 }
 
 h1 {
-  background-color: rgb(221 161 94);
-  color: hsl(88deg 38% 15%);
+  background-color: rgb(148 16 171);
+  color: hsl(333deg 93% 56%);
   padding: 40px;
   text-align: center;
 }
 
 h3 {
-  color: #bc6c25;
+  color: #f72585;
 }
 
 p {
-  background-color: #283618;
-  color: #fefae0
+  background-color: #A514A5;
+  color: #f72585
 }
 
 iframe {
-  background-color: #283618;
-  color: #fefae0;
+  background-color: #F72585;
 }
